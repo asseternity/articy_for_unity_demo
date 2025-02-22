@@ -27,6 +27,9 @@ public class DialogueManager : MonoBehaviour, IArticyFlowPlayerCallbacks
     [SerializeField]
     GameObject branchPrefab;
 
+    [SerializeField]
+    GameObject closePrefab;
+
     // To check if we are currently showing the dialog ui interface
     public bool DialogueActive { get; set; }
 
@@ -103,7 +106,15 @@ public class DialogueManager : MonoBehaviour, IArticyFlowPlayerCallbacks
             foreach (var branch in aBranches)
             {
                 GameObject btn = Instantiate(branchPrefab, branchLayoutPanel);
+                btn.GetComponent<BranchChoice>().AssignBranch(flowPlayer, branch);
             }
+        }
+        else
+        {
+            // there is no more dialogue
+            GameObject btn = Instantiate(closePrefab, branchLayoutPanel);
+            var btnComp = btn.GetComponent<Button>();
+            btnComp.onClick.AddListener(CloseDialogueBox);
         }
     }
 
