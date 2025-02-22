@@ -177,6 +177,51 @@ MonoBehaviour:
     parent: 216172783251375095
     technicalName: Dlg_E5C50D1B
     articyType: Dialogue
+    childCount: 9
+  - id: 72057594037928579
+    parent: 72057594037928533
+    technicalName: DFr_5D2E0A4E
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037928598
+    parent: 72057594037928533
+    technicalName: DFr_5B44F758
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037928592
+    parent: 72057594037928533
+    technicalName: DFr_C7C57E68
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037928608
+    parent: 72057594037928533
+    technicalName: DFr_182BAAE0
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037928616
+    parent: 72057594037928533
+    technicalName: DFr_3DF2C262
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037928623
+    parent: 72057594037928533
+    technicalName: DFr_FD1C5CBF
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037928629
+    parent: 72057594037928533
+    technicalName: DFr_15BE929C
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037928635
+    parent: 72057594037928533
+    technicalName: DFr_0465324B
+    articyType: DialogueFragment
+    childCount: 0
+  - id: 72057594037928644
+    parent: 72057594037928533
+    technicalName: DFr_B487B0E4
+    articyType: DialogueFragment
     childCount: 0
   - id: 216172785005863603
     parent: 72057594037927937
